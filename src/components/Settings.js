@@ -6,15 +6,15 @@ function Settings() {
       <div className="theme-toggler">
         <div className="theme-buttons">
           <div className="light-theme-btn active">
-            <i class="bi bi-sun"></i>
+            <i className="bi bi-sun"></i>
           </div>
           <div className="dark-theme-btn">
-            <i class="bi bi-moon"></i>
+            <i className="bi bi-moon"></i>
           </div>
         </div>
       </div>
       <div className="settings-btn">
-        <i class="bi bi-gear"></i>
+        <i className="bi bi-gear"></i>
       </div>
     </div>
   )
