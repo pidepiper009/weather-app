@@ -21,11 +21,11 @@ function HourlyForecastWidget({ data }) {
             weekday: 'short',
             day: "2-digit",
             month: "2-digit"
-        }).format(new Date()),
+        }).format(new Date(date)),
         time: new Intl.DateTimeFormat(navigator.language,{
             hour: "2-digit",
             minute: "2-digit"
-        }).format(new Date().setMinutes(0))
+        }).format(new Date(date).setMinutes(0))
     };
 
     weather_date.day = 
